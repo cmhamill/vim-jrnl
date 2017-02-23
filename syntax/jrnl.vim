@@ -1,6 +1,4 @@
-if exists('b:current_syntax')
-  finish
-endif
+if exists('b:current_syntax') | finish | endif
 
 if !exists('g:jrnl_tagsymbols')
     let g:jrnl_tagsymbols = ['@']
